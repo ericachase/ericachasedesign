@@ -31,3 +31,19 @@ header {
 .navbar ul li a:hover {
 	color: #25474A;
 }
+.descr {
+	/*background-color: black;*/
+}
+.descr p {
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-family: Arial;
+}
+footer {
+	clear: both;
+	color: white;
+	font-family: Arial;
+	font-size: 9px;
+	text-align: center;
+}
