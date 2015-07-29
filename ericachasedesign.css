@@ -1,0 +1,29 @@
+body{
+	background-color: gray;
+}
+
+header {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+.logo h1{
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar ul li {
+	display: inline-block;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+}
+.navbar ul li a:hover {
+	color: gray;
+}
