@@ -1,6 +1,5 @@
 body{
-	background-color: gray;
-    background-image: url("LianaScrap_Set001_3.jpg");
+    background-image: url("../images/LianaScrap_Set001_3.jpg");
     height: 400px;
     background-repeat: repeat;
 }
@@ -25,8 +24,10 @@ header {
 .navbar ul li a {
 	text-decoration: none;
 	color: white;
-	font-family: Helvetica;
+	font-family: Courier;
+	padding: 50px;
+	margin-left: -30px;
 }
 .navbar ul li a:hover {
-	color: gray;
+	color: #25474A;
 }
