@@ -1,5 +1,8 @@
 body{
 	background-color: gray;
+    background-image: url("LianaScrap_Set001_3.jpg");
+    height: 400px;
+    background-repeat: repeat;
 }
 
 header {
@@ -7,10 +10,8 @@ header {
 	color: white;
 	padding: 10px;
 }
-.logo h1{
-	font-family: Helvetica;
-	font-weight: bold;
-	text-align: center;
+.logo img {
+	margin: auto;
 }
 .navbar {
 	margin-left: auto;
