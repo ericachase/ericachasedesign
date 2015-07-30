@@ -1,13 +1,15 @@
 body{
     background-image: url("../images/LianaScrap_Set001_3.jpg");
-    height: 400px;
     background-repeat: repeat;
+    display: block;
+    margin: 0px;
 }
 
-header {
+.header {
 	background-color: black;
 	color: white;
 	padding: 10px;
+	width: 100%;
 }
 .logo {
 	margin: auto;
