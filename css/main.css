@@ -5,7 +5,7 @@ body{
     margin: 0px;
 }
 
-.header {
+header {
 	background-color: black;
 	color: white;
 	padding: 10px;
@@ -26,7 +26,7 @@ body{
 .navbar ul li a {
 	text-decoration: none;
 	color: white;
-	font-family: Courier;
+	font-family: Courier New, Courier, monospace;
 	padding: 50px;
 	margin-left: -30px;
 }
@@ -42,10 +42,23 @@ body{
 	text-align: center;
 	font-family: Arial;
 }
+.about {
+	text-align: center;
+	font-family: Helvetica;
+	border: 2px solid white;
+	width: 45%;
+	margin: auto;
+	margin-top: 20px;
+}
+.about a {
+	text-decoration: none;
+	color: white;
+}
 footer {
 	clear: both;
 	color: white;
 	font-family: Arial;
 	font-size: 9px;
 	text-align: center;
+	padding: 30px;
 }
