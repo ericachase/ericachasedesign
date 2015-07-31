@@ -3,6 +3,8 @@ body{
     background-repeat: repeat;
     display: block;
     margin: 0px;
+    overflow: auto;
+    width: 1450px;
 }
 
 header {
@@ -47,13 +49,13 @@ header {
 	margin: auto;
 }
 .about {
-	background-color: rgba(56, 56, 56, 0.7);
+	background-color: rgba(56, 56, 56, 0.5);
 	text-align: center;
 	font-family: Helvetica;
 	border: 2px solid white;
 	width: 400px;
 	height: 140px;
-	line-height: 140px;
+	line-height: 143px;
 	margin: auto;
 	margin-top: 20px;
 	float: left;
@@ -64,13 +66,13 @@ header {
 	color: white;
 }
 .portfolio {
-	background-color: rgba(56, 56, 56, 0.7);
+	background-color: rgba(56, 56, 56, 0.5);
 	text-align: center;
 	font-family: Helvetica;
 	border: 2px solid white;
 	width: 400px;
 	height: 140px;
-	line-height: 140px;
+	line-height: 160px;
 	margin: auto;
 	margin-top: 20px;
 	float: right;
