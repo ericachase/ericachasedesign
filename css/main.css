@@ -11,53 +11,25 @@ header {
 	background-color: black;
 	color: white;
 	padding: 10px;
-	width: 100%;
 }
 .logo {
 	margin: auto;
 	text-align: center;
 }
-/*.navbar {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-.navbar ul li {
-	display: inline-block;
-}
-.navbar ul li a {
-	text-decoration: none;
-	color: white;
-	font-family: Courier New, Courier, monospace;
-	padding: 50px;
-	margin-left: -30px;
-}
-.navbar ul li a:hover {
-	color: #25474A;
-}
-.descr {
-	background-color: black;
-}
-.descr p {
-	color: white;
-	padding: 20px;
-	text-align: center;
-	font-family: Arial;
-}*/
 .navboxes {
 	display: inline;
 	margin: auto;
 }
 .about {
-	background-color: rgba(56, 56, 56, 0.5);
+	background-color: rgba(00, 00, 00, 0.4);
 	text-align: center;
 	font-family: Helvetica;
-	border: 2px solid white;
+	border: 1px solid white;
 	width: 400px;
 	height: 140px;
 	line-height: 143px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 50px;
 	float: left;
 	margin-left: 300px;
 }
@@ -66,19 +38,53 @@ header {
 	color: white;
 }
 .portfolio {
-	background-color: rgba(56, 56, 56, 0.5);
+	background-color: rgba(00, 00, 00, 0.4);
 	text-align: center;
 	font-family: Helvetica;
-	border: 2px solid white;
+	border: 1px solid white;
 	width: 400px;
 	height: 140px;
 	line-height: 160px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 50px;
 	float: right;
 	margin-right: 300px;
 }
 .portfolio a {
+	text-decoration: none;
+	color: white;
+}
+.shop {
+	background-color: rgba(00, 00, 00, 0.4);
+	text-align: center;
+	font-family: Helvetica;
+	border: 1px solid white;
+	width: 400px;
+	height: 140px;
+	line-height: 180px;
+	margin: auto;
+	margin-top: 35px;
+	float: left;
+	margin-left: 300px;
+}
+.shop a {
+	text-decoration: none;
+	color: white;
+}
+.contact {
+	background-color: rgba(00, 00, 00, 0.4);
+	text-align: center;
+	font-family: Helvetica;
+	border: 1px solid white;
+	width: 400px;
+	height: 140px;
+	line-height: 160px;
+	margin: auto;
+	margin-top: 35px;
+	float: right;
+	margin-right: 300px;
+}
+.contact a {
 	text-decoration: none;
 	color: white;
 }
@@ -89,4 +95,5 @@ footer {
 	font-size: 9px;
 	text-align: center;
 	padding: 30px;
+	margin-top: 500px;
 }
