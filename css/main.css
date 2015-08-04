@@ -33,9 +33,8 @@ header {
 	float: left;
 	margin-left: 280px;
 }
-.about a {
-	text-decoration: none;
-	color: white;
+.about:hover {
+	border: solid black 8px;
 }
 .portfolio {
 	background-color: rgba(00, 00, 00, 0.4);
@@ -50,9 +49,8 @@ header {
 	float: right;
 	margin-right: 320px;
 }
-.portfolio a {
-	text-decoration: none;
-	color: white;
+.portfolio:hover {
+	border: solid black 8px;
 }
 .shop {
 	background-color: rgba(00, 00, 00, 0.4);
@@ -67,9 +65,8 @@ header {
 	float: left;
 	margin-left: 280px;
 }
-.shop a {
-	text-decoration: none;
-	color: white;
+.shop:hover {
+	border: solid black 8px;
 }
 .contact {
 	background-color: rgba(00, 00, 00, 0.4);
@@ -84,9 +81,8 @@ header {
 	float: right;
 	margin-right: 320px;
 }
-.contact a {
-	text-decoration: none;
-	color: white;
+.contact:hover {
+	border: solid black 8px;
 }
 footer {
 	clear: both;
@@ -104,3 +100,7 @@ footer {
 .shoptable td {
 	padding: 10px;
 }
+.shoptable td img:hover {
+	opacity: .8;
+}
+
