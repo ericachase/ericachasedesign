@@ -1,106 +1,202 @@
-body{
-    background-image: url("../images/LianaScrap_Set001_3.jpg");
-    background-repeat: repeat;
-    display: block;
-    margin: 0px;
-    overflow: auto;
-    width: 1450px;
+body {
+  background-color: #282938;
+  font-family: ubuntu, sans-serif;
+  height: 100vh;
+  background: url("/img/img3.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-transition: background-image 2s ease;
+  transition: background-image 2s ease;
+  overflow: hidden;
 }
 
-header {
+.img1 {
+  background-image: url("/img/img1.jpg");
+}
+
+.img2 {
+  background-image: url("/img/img2.jpg");
+}
+
+.img3 {
+  background-image: url("/img/img3.jpg");
+}
+
+.img4 {
+  background-image: url("/img/img4.jpg");
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: #50E3C2;
+}
+.name span {
+  display: block;
+  width: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: top 4s ease;
+  transition: top 4s ease;
+}
+.name span:nth-child(2) {
+  left: 20%;
+}
+.name span:nth-child(3) {
+  left: 40%;
+}
+.name span:nth-child(4) {
+  left: 60%;
+}
+.name span:nth-child(5) {
+  left: 80%;
+}
+
+
+/*-----------------About-------------------*/
+.aboutme img {
+	width: 17em;
+}
+
+.aboutme p {
+	color: white;
+	font-size: .9em;
+	font-family: Helvetica;
+}
+
+.aboutme {
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+	margin-top: 4%;
+	background-color: #282938;
+	padding: 1em;
+	border: 1px solid white;
+	opacity: .9;
+}
+
+/*-----------------Portfolio---------------*/
+
+#accordion {
+	width: 99%;
+	margin: auto;
+	margin-top: 3.5%;
+}
+.ui-accordion-header-active {
+	background-color: #282938;
+	opacity: 1;
+}
+.ui-state-active {
 	background-color: black;
+	border: 1px solid #282938;
+}
+.ui-widget-content {
+	background-color: #282938;
 	color: white;
-	padding: 10px;
+	border: 1px solid #282938;
+	opacity: 1;
 }
-.logo {
-	margin: auto;
-	text-align: center;
-}
-.navboxes {
-	display: inline;
-	margin: auto;
-}
-.about {
-	background-color: rgba(00, 00, 00, 0.4);
-	text-align: center;
-	font-family: Helvetica;
-	border: 8px solid white;
-	width: 400px;
-	height: 140px;
-	line-height: 143px;
-	margin: auto;
-	margin-top: 50px;
-	float: left;
-	margin-left: 280px;
-}
-.about:hover {
-	border: solid black 8px;
-}
-.portfolio {
-	background-color: rgba(00, 00, 00, 0.4);
-	text-align: center;
-	font-family: Helvetica;
-	border: 8px solid white;
-	width: 400px;
-	height: 140px;
-	line-height: 160px;
-	margin: auto;
-	margin-top: 50px;
-	float: right;
-	margin-right: 320px;
-}
-.portfolio:hover {
-	border: solid black 8px;
-}
-.shop {
-	background-color: rgba(00, 00, 00, 0.4);
-	text-align: center;
-	font-family: Helvetica;
-	border: 8px solid white;
-	width: 400px;
-	height: 140px;
-	line-height: 180px;
-	margin: auto;
-	margin-top: 18px;
-	float: left;
-	margin-left: 280px;
-}
-.shop:hover {
-	border: solid black 8px;
-}
-.contact {
-	background-color: rgba(00, 00, 00, 0.4);
-	text-align: center;
-	font-family: Helvetica;
-	border: 8px solid white;
-	width: 400px;
-	height: 140px;
-	line-height: 160px;
-	margin: auto;
-	margin-top: 18px;
-	float: right;
-	margin-right: 320px;
-}
-.contact:hover {
-	border: solid black 8px;
-}
-footer {
-	clear: both;
+.ui-widget-header {
+	border: 1px solid #dddddd;
+	background: #282938;
 	color: white;
-	font-family: Arial;
-	font-size: 9px;
-	text-align: center;
-	padding: 30px;
-	margin-top: 50px;
+	font-weight: bold;
 }
-.shoptable {
-	margin: auto;
-	margin-top: 20px;
+.ui-widget-content a {
+	text-decoration: none;
+	color: white;
+	opacity:.9;
 }
-.shoptable td {
-	padding: 10px;
+.ui-widget-content a:hover {
+	opacity: 1;
 }
-.shoptable td img:hover {
-	opacity: .3;
+ul li {
+	list-style: none;
 }
 
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+	border-top-left-radius: 0px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+	border-top-right-radius: 0px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+	border-bottom-left-radius: 0px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+	border-bottom-right-radius: 0px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+
+/* We use html here because we need a greater specificity to make sure disabled
+works properly when clicked or hovered */
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+	border: 1px solid #282938;
+	background: #282938;
+	font-weight: normal;
+	color: white;
+	opacity: .8;
+}
+
+:focus {
+outline: 0;
+}
+
+/*-----------------Footer------------------*/
+a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	font-family: Helvetica;
+	font-size: .7em;
+	display: inline-block;
+	padding: .5em;
+	margin: 1.5em;
+	margin-left: -2em;
+	border: .5px solid #282938;
+	width: 6em;
+	text-align: center;
+	margin-right: 3em;
+    transition: border .5s ease-in-out;
+    -moz-transition: border .5s ease-in-out;
+    -webkit-transition: border .5s ease-in-out;
+}
+
+nav ul li:hover {
+	border: .5px solid white;
+}
+
+
+#copyright {
+	color: white;
+	opacity: .1;
+	font-size: .2em;
+	float: right;
+}
